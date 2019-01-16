@@ -4,4 +4,3 @@ require_relative "../lib/greeting.rb"
 greeting(name)
 name = gets.chomp
 puts "Hi! I'm #{name}, what's your name?"
-end
