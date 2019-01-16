@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 require_relative "../lib/greeting.rb"
 
-def greet(name)
+greeting(name)
 name = gets.chomp
 puts "Hi! I'm #{name}, what's your name?"
 end
